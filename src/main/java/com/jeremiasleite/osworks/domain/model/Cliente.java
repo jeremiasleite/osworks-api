@@ -14,8 +14,7 @@ import com.jeremiasleite.osworks.domain.ValidationGroups;
 @Entity
 public class Cliente {
 	
-	@Id
-	@NotNull(groups = ValidationGroups.ClienteId.class)
+	@Id	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
